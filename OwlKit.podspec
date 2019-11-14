@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author             = { "Daniele Margutti" => "hello@danielemargutti.com" }
   s.social_media_url   = "https://twitter.com/danielemargutti"
   s.ios.deployment_target = "9.0"
-  s.source       = { :git => "https://github.com/malcommac/Owl.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/cyupa/Owl.git", :branch => "open-fix"}
   s.source_files  = "Sources/**/*.swift"
   s.frameworks  = "UIKit"
   s.swift_version = "5.0"
